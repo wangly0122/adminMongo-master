@@ -1,0 +1,565 @@
+
+> admin-mongo@0.0.23 start /opt/adminMongo-master
+> node app.js
+
+adminMongo listening on host: http://192.168.1.79:4321/dbApp
+[0mGET /dbApp [36m302 [0m24.040 ms - 76[0m
+[0mGET /dbApp/app/login [32m200 [0m89.262 ms - 9280[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [32m200 [0m18.744 ms - 121457[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [32m200 [0m3.306 ms - 872[0m
+[0mGET /dbApp/css/style.css [32m200 [0m3.514 ms - 8348[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [32m200 [0m3.534 ms - 127303[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [32m200 [0m4.949 ms - 31000[0m
+[0mGET /dbApp/jquery/jquery.min.js [32m200 [0m6.887 ms - 86927[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [32m200 [0m7.668 ms - 39680[0m
+[0mGET /dbApp/js/adminMongo.js [32m200 [0m0.922 ms - 27235[0m
+[0mGET /dbApp/js/highlight.min.js [32m200 [0m0.947 ms - 42480[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [32m200 [0m12.513 ms - 77160[0m
+Error: Not Found
+    at /opt/adminMongo-master/app.js:226:15
+    at Layer.handle [as handle_request] (/opt/adminMongo-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/adminMongo-master/node_modules/express/lib/router/index.js:317:13)
+    at /opt/adminMongo-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/opt/adminMongo-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/opt/adminMongo-master/node_modules/express/lib/router/index.js:275:10)
+    at /opt/adminMongo-master/app.js:202:5
+    at Layer.handle [as handle_request] (/opt/adminMongo-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/adminMongo-master/node_modules/express/lib/router/index.js:317:13)
+    at /opt/adminMongo-master/node_modules/express/lib/router/index.js:284:7
+[0mGET /favicon.ico [33m404 [0m46.645 ms - 8982[0m
+[0mGET /dbApp [36m302 [0m2.332 ms - 76[0m
+[0mGET /dbApp/app/login [36m304 [0m36.986 ms - -[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m10.654 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m0.874 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m6.257 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m5.867 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m6.218 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m5.798 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m5.421 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m3.022 ms - -[0m
+Error: Not Found
+    at /opt/adminMongo-master/app.js:226:15
+    at Layer.handle [as handle_request] (/opt/adminMongo-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/adminMongo-master/node_modules/express/lib/router/index.js:317:13)
+    at /opt/adminMongo-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/opt/adminMongo-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/opt/adminMongo-master/node_modules/express/lib/router/index.js:275:10)
+    at /opt/adminMongo-master/app.js:202:5
+    at Layer.handle [as handle_request] (/opt/adminMongo-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/adminMongo-master/node_modules/express/lib/router/index.js:317:13)
+    at /opt/adminMongo-master/node_modules/express/lib/router/index.js:284:7
+[0mGET / [33m404 [0m38.415 ms - 8982[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.803 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.858 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [32m200 [0m1.712 ms - 872[0m
+[0mGET /dbApp/css/style.css [32m200 [0m3.516 ms - 8348[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [32m200 [0m3.361 ms - 31000[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [32m200 [0m3.073 ms - 39680[0m
+[0mGET /dbApp/js/adminMongo.js [32m200 [0m1.013 ms - 27235[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [32m200 [0m1.016 ms - 121457[0m
+[0mGET /dbApp/jquery/jquery.min.js [32m200 [0m2.634 ms - 86927[0m
+[0mGET /dbApp/js/highlight.min.js [32m200 [0m0.995 ms - 42480[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [32m200 [0m1.842 ms - 127303[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [32m200 [0m1.024 ms - 77160[0m
+Error: Not Found
+    at /opt/adminMongo-master/app.js:226:15
+    at Layer.handle [as handle_request] (/opt/adminMongo-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/adminMongo-master/node_modules/express/lib/router/index.js:317:13)
+    at /opt/adminMongo-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/opt/adminMongo-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/opt/adminMongo-master/node_modules/express/lib/router/index.js:275:10)
+    at /opt/adminMongo-master/app.js:202:5
+    at Layer.handle [as handle_request] (/opt/adminMongo-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/adminMongo-master/node_modules/express/lib/router/index.js:317:13)
+    at /opt/adminMongo-master/node_modules/express/lib/router/index.js:284:7
+[0mGET /favicon.ico [33m404 [0m30.095 ms - 8982[0m
+[0mGET /dbApp/app [36m302 [0m1.252 ms - 76[0m
+[0mGET /dbApp/app/login [32m200 [0m29.917 ms - 9280[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m4.215 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m3.552 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m3.774 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m3.451 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m3.121 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.286 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m1.476 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.263 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.960 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.827 ms - -[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m82.675 ms - 9342[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.887 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m4.464 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m4.105 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m3.734 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m3.368 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.986 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.620 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.353 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.191 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.855 ms - -[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m33.081 ms - 9342[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.193 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m0.964 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m0.848 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.329 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m1.715 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m3.421 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.758 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m2.272 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.359 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.879 ms - -[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m33.657 ms - 9342[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.116 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m1.439 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m0.645 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m3.411 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.833 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.498 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.143 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m2.615 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.574 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.843 ms - -[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m32.687 ms - 9342[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m3.506 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m2.853 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.474 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m3.618 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.286 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.230 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.112 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.504 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.695 ms - -[0m
+[0mGET /dbApp [36m302 [0m1.666 ms - 76[0m
+[0mGET /dbApp/app/login [36m304 [0m28.607 ms - -[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.148 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m1.344 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m1.466 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.322 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m1.073 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m0.598 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m0.799 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m0.783 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.782 ms - -[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m24.338 ms - 9342[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.855 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.484 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m2.090 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.791 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m3.471 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m3.114 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.395 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.445 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.238 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.818 ms - -[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m30.756 ms - 9342[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.874 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m3.467 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m3.106 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.736 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m3.298 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.902 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m1.316 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.334 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.149 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.756 ms - -[0m
+[0mGET /dbApp [36m302 [0m1.130 ms - 76[0m
+[0mGET /dbApp/app/login [36m304 [0m35.006 ms - -[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.169 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m3.083 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.407 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.074 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.745 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m0.747 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m0.735 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.393 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.268 ms - -[0m
+[0mPOST /dbApp/app/login_action [36m302 [0m2.205 ms - 58[0m
+[0mGET /dbApp/ [36m302 [0m1.549 ms - 66[0m
+[0mGET /dbApp/app/ [36m302 [0m1.438 ms - 82[0m
+[0mGET /dbApp/app/mongodb1 [32m200 [0m236.755 ms - 16022[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.853 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m1.395 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m1.265 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.408 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m3.644 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m2.351 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m3.494 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.566 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.183 ms - -[0m
+[0mGET /dbApp/static/logo.png [32m200 [0m2.016 ms - 14765[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.867 ms - -[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m4.072 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m3.592 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m3.183 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.799 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.622 ms - -[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m39.447 ms - 9342[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [32m200 [0m2.945 ms - 872[0m
+[0mGET /dbApp/css/style.css [32m200 [0m3.111 ms - 8348[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [32m200 [0m1.050 ms - 31000[0m
+[0mGET /dbApp/jquery/jquery.min.js [32m200 [0m2.514 ms - 86927[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m32.168 ms - 9342[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [32m200 [0m2.744 ms - 872[0m
+[0mGET /dbApp/css/style.css [32m200 [0m2.794 ms - 8348[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [32m200 [0m0.907 ms - 31000[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [32m200 [0m1.282 ms - 39680[0m
+[0mGET /dbApp/jquery/jquery.min.js [32m200 [0m1.648 ms - 86927[0m
+[0mGET /dbApp/js/adminMongo.js [32m200 [0m0.981 ms - 27235[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [32m200 [0m2.894 ms - 127303[0m
+[0mGET /dbApp/js/highlight.min.js [32m200 [0m1.004 ms - 42480[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [32m200 [0m3.149 ms - 121457[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [32m200 [0m3.182 ms - 127303[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [32m200 [0m1.107 ms - 77160[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [32m200 [0m3.712 ms - 121457[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css.map [32m200 [0m1.001 ms - 540434[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css.map [32m200 [0m8.752 ms - 540434[0m
+[0mPOST /dbApp/app/login_action [36m302 [0m1.892 ms - 58[0m
+[0mGET /dbApp/ [36m302 [0m1.228 ms - 66[0m
+[0mGET /dbApp/app/ [36m302 [0m1.163 ms - 82[0m
+[0mGET /dbApp/app/mongodb1 [32m200 [0m63.141 ms - 16022[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [32m200 [0m0.930 ms - 872[0m
+[0mGET /dbApp/css/style.css [32m200 [0m0.633 ms - 8348[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [32m200 [0m1.866 ms - 31000[0m
+[0mGET /dbApp/jquery/jquery.min.js [32m200 [0m1.678 ms - 86927[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [32m200 [0m2.540 ms - 121457[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [32m200 [0m0.825 ms - 39680[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [32m200 [0m2.122 ms - 127303[0m
+[0mGET /dbApp/js/adminMongo.js [32m200 [0m0.847 ms - 27235[0m
+[0mGET /dbApp/js/highlight.min.js [32m200 [0m0.675 ms - 42480[0m
+[0mGET /dbApp/static/logo.png [32m200 [0m0.877 ms - 14765[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [32m200 [0m0.901 ms - 77160[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css.map [32m200 [0m0.992 ms - 540434[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m38.947 ms - 9342[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.782 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m0.751 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m0.760 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m3.343 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.874 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.571 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m1.964 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m0.795 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.821 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.831 ms - -[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m31.191 ms - 9342[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m5.442 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m5.014 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m4.689 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m4.738 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m4.441 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m4.115 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.215 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.626 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.745 ms - -[0m
+[0mGET /dbApp/app/mongodb1 [32m200 [0m51.936 ms - 16022[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.676 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m3.169 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.573 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.196 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.739 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.537 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.144 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.556 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.670 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m0.802 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.831 ms - -[0m
+[0mGET /dbApp/app/mongodb1/test_db/table1/view [36m302 [0m1.847 ms - 126[0m
+[0mGET /dbApp/app/mongodb1/test_db/table1/view/1 [32m200 [0m53.485 ms - 14717[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m4.049 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m2.906 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.336 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.647 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m1.353 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m0.980 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m3.137 ms - -[0m
+[0mGET /dbApp/js/jquery.bootpag.min.js [32m200 [0m2.972 ms - 3060[0m
+[0mGET /dbApp/js/toEJSON.js [32m200 [0m2.858 ms - 3378[0m
+[0mGET /dbApp/js/editor.js [32m200 [0m2.890 ms - 1504[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m0.872 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.823 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m1.766 ms - -[0m
+[0mGET /dbApp/js/ace/ace.js [32m200 [0m2.985 ms - 347010[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m1.527 ms - -[0m
+[0mGET /dbApp/fonts/glyphicons-halflings-regular.woff2 [32m200 [0m1.423 ms - 18028[0m
+[0mGET /dbApp/js/ace/theme-github.js [32m200 [0m0.874 ms - 2172[0m
+[0mGET /dbApp/js/ace/mode-json.js [32m200 [0m0.800 ms - 11586[0m
+[0mPOST /dbApp/api/mongodb1/test_db/table1/1 [32m200 [0m187.123 ms - 464[0m
+[0mGET /dbApp/app/mongodb1/test_db/table1/view [36m302 [0m2.268 ms - 126[0m
+[0mGET /dbApp/app/mongodb1/test_db/table1/view/1 [36m304 [0m71.253 ms - -[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.720 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m0.990 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.871 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m1.716 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.529 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m1.353 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m1.509 ms - -[0m
+[0mGET /dbApp/js/jquery.bootpag.min.js [36m304 [0m0.481 ms - -[0m
+[0mGET /dbApp/js/ace/ace.js [36m304 [0m1.954 ms - -[0m
+[0mGET /dbApp/js/toEJSON.js [36m304 [0m1.572 ms - -[0m
+[0mGET /dbApp/js/editor.js [36m304 [0m1.367 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.987 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.385 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m1.219 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m1.487 ms - -[0m
+[0mGET /dbApp/fonts/glyphicons-halflings-regular.woff2 [36m304 [0m1.499 ms - -[0m
+[0mGET /dbApp/js/ace/theme-github.js [36m304 [0m1.308 ms - -[0m
+[0mGET /dbApp/js/ace/mode-json.js [36m304 [0m1.329 ms - -[0m
+[0mPOST /dbApp/api/mongodb1/test_db/table1/1 [32m200 [0m6.299 ms - 464[0m
+
+> admin-mongo@0.0.23 start /opt/adminMongo-master
+> node app.js
+
+adminMongo listening on host: http://192.168.1.79:4321/dbApp
+
+> admin-mongo@0.0.23 start /opt/adminMongo-master
+> node app.js
+
+adminMongo listening on host: http://192.168.1.79:4321/dbApp
+[0mGET /dbApp [36m302 [0m15.723 ms - 76[0m
+[0mGET /dbApp/app/login [32m200 [0m75.978 ms - 9280[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m5.214 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m4.302 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.904 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.506 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.112 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.338 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m1.378 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.169 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.701 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.941 ms - -[0m
+Error: Not Found
+    at /opt/adminMongo-master/app.js:226:15
+    at Layer.handle [as handle_request] (/opt/adminMongo-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/adminMongo-master/node_modules/express/lib/router/index.js:317:13)
+    at /opt/adminMongo-master/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/opt/adminMongo-master/node_modules/express/lib/router/index.js:335:12)
+    at next (/opt/adminMongo-master/node_modules/express/lib/router/index.js:275:10)
+    at /opt/adminMongo-master/app.js:202:5
+    at Layer.handle [as handle_request] (/opt/adminMongo-master/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/adminMongo-master/node_modules/express/lib/router/index.js:317:13)
+    at /opt/adminMongo-master/node_modules/express/lib/router/index.js:284:7
+[0mGET /favicon.ico [33m404 [0m42.761 ms - 8982[0m
+[0mPOST /dbApp/app/login_action [36m302 [0m21.477 ms - 58[0m
+[0mGET /dbApp/ [36m302 [0m2.041 ms - 66[0m
+[0mGET /dbApp/app/ [36m302 [0m1.364 ms - 82[0m
+[0mGET /dbApp/app/mongodb1 [32m200 [0m110.001 ms - 16022[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.178 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m0.831 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m1.376 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.180 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m0.839 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.608 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m1.395 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m0.796 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.763 ms - -[0m
+[0mGET /dbApp/static/logo.png [32m200 [0m5.244 ms - 14765[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.833 ms - -[0m
+[0mGET /dbApp/app/login_action [32m200 [0m37.949 ms - 9025[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.579 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m2.759 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.198 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.851 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.128 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.701 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.255 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.598 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.118 ms - -[0m
+[0mGET /dbApp/static/logo.png [32m200 [0m0.980 ms - 14765[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.847 ms - -[0m
+[0mGET /dbApp [36m302 [0m1.355 ms - 76[0m
+[0mGET /dbApp/app/login [36m304 [0m40.259 ms - -[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.835 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m1.242 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m1.297 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.493 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m1.933 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.924 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m1.413 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.241 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.771 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.769 ms - -[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m35.689 ms - 9342[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.176 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m2.257 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m1.901 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.631 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m1.942 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.117 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m0.941 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m0.702 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.765 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.775 ms - -[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m44.062 ms - 9342[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.525 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m3.581 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m3.176 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.807 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.424 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.937 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.263 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.695 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.883 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.863 ms - -[0m
+[0mPOST /dbApp/app/login_action [32m200 [0m38.153 ms - 9342[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.835 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m1.935 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.976 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.191 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.448 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.136 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m1.292 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m0.756 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.726 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.857 ms - -[0m
+[0mPOST /dbApp/app/login_action [36m302 [0m1.930 ms - 58[0m
+[0mGET /dbApp/ [36m302 [0m1.143 ms - 66[0m
+[0mGET /dbApp/app/ [36m302 [0m1.157 ms - 82[0m
+[0mGET /dbApp/app/mongodb1 [32m200 [0m91.596 ms - 16022[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.806 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m1.347 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m1.302 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.350 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m0.790 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.008 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m1.475 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.681 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.814 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m0.737 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.909 ms - -[0m
+[0mGET /dbApp/app/login_action [32m200 [0m40.326 ms - 9025[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.928 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m0.768 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m0.792 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.339 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m1.158 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.782 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.389 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m2.664 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m2.354 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m0.792 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.867 ms - -[0m
+[0mGET /dbApp/app [36m302 [0m1.594 ms - 76[0m
+[0mGET /dbApp/app/login [36m304 [0m33.584 ms - -[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.465 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m2.767 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m3.139 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.782 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.369 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.070 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m1.575 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.561 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.045 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.755 ms - -[0m
+[0mGET /dbApp/app/mongodb1/config [32m200 [0m436.867 ms - 14481[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.840 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m2.988 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.453 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.123 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m1.845 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.260 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m0.820 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m0.641 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.958 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m0.848 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.802 ms - -[0m
+[0mPOST /dbApp/app/login_action [36m302 [0m2.167 ms - 58[0m
+[0mGET /dbApp/ [36m302 [0m1.020 ms - 66[0m
+[0mGET /dbApp/app/ [36m302 [0m1.179 ms - 82[0m
+[0mGET /dbApp/app/mongodb1 [32m200 [0m44.115 ms - 16022[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.153 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m0.972 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.110 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.700 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m1.430 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.692 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m1.029 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m0.914 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.831 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m0.832 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.821 ms - -[0m
+[0mGET /dbApp/app/mongodb1 [32m200 [0m44.757 ms - 16022[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m3.583 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m2.372 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.514 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.984 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m1.357 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.179 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.651 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m2.104 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.770 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m2.104 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.781 ms - -[0m
+[0mGET /dbApp/app/logout [36m302 [0m1.655 ms - 64[0m
+[0mGET /dbApp/app [36m302 [0m1.034 ms - 76[0m
+[0mGET /dbApp/app/login [36m304 [0m48.079 ms - -[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.702 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m1.224 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m1.403 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m0.597 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m0.583 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.102 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m0.977 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m0.805 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m0.863 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.825 ms - -[0m
+[0mGET /dbApp/app/mongodb1 [32m200 [0m78.266 ms - 16022[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.557 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m0.417 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m0.397 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.240 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m0.814 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m1.438 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.824 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m2.195 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.852 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m2.137 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.780 ms - -[0m
+[0mGET /dbApp/app/mongodb1/config [36m304 [0m53.956 ms - -[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m1.479 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m1.251 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.749 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m2.250 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m1.932 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.195 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m0.803 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.949 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.449 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m1.646 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.789 ms - -[0m
+[0mGET /dbApp/app/mongodb1/config [36m304 [0m44.333 ms - -[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m2.028 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m1.452 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m1.600 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m3.083 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.487 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.649 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.080 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m1.433 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.608 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m1.082 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.792 ms - -[0m
+[0mPOST /dbApp/app/login_action [36m302 [0m2.034 ms - 58[0m
+[0mGET /dbApp/ [36m302 [0m1.192 ms - 66[0m
+[0mGET /dbApp/app/ [36m302 [0m1.108 ms - 82[0m
+[0mGET /dbApp/app/mongodb1 [32m200 [0m52.428 ms - 16022[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.860 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m0.766 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m0.814 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m0.757 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m24.899 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m24.606 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m24.293 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m23.952 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m1.319 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m1.310 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.788 ms - -[0m
+[0mGET /dbApp/app/mongodb1 [32m200 [0m40.761 ms - 16022[0m
+[0mGET /dbApp/bootstrap/css/bootstrap.min.css [36m304 [0m0.896 ms - -[0m
+[0mGET /dbApp/font-awesome/css/font-awesome.min.css [36m304 [0m2.721 ms - -[0m
+[0mGET /dbApp/css/flatly.bootstrap.min.css [36m304 [0m2.357 ms - -[0m
+[0mGET /dbApp/css/highlightjs.github.min.css [36m304 [0m2.045 ms - -[0m
+[0mGET /dbApp/css/style.css [36m304 [0m1.713 ms - -[0m
+[0mGET /dbApp/js/adminMongo.js [36m304 [0m2.983 ms - -[0m
+[0mGET /dbApp/js/highlight.min.js [36m304 [0m2.663 ms - -[0m
+[0mGET /dbApp/static/logo.png [36m304 [0m2.331 ms - -[0m
+[0mGET /dbApp/jquery/jquery.min.js [36m304 [0m2.029 ms - -[0m
+[0mGET /dbApp/bootstrap/js/bootstrap.min.js [36m304 [0m2.432 ms - -[0m
+[0mGET /dbApp/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 [36m304 [0m0.747 ms - -[0m
