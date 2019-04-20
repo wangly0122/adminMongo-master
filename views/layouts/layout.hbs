@@ -36,7 +36,8 @@
     <div class="container-fluid wrapper">
         <div class="row row-offcanvas row-offcanvas-left">
             {{#if sidebar_list}}
-            <div id="sidebar" class="column no-side-pad hidden-xs col-xs-12 col-sm-3 col-lg-2 sidebar-offcanvas">
+            <!-- delete left nav -->
+           <!-- <div id="sidebar" class="column no-side-pad hidden-xs col-xs-12 col-sm-3 col-lg-2 sidebar-offcanvas">
                 <div class="row">
                     <div class="col-lg-12 no-pad-left no-pad-right">
                         <div class="navTitle"> 
@@ -66,14 +67,15 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
             {{/if}}
             {{#ifOr monitoring connection_list}}
             <div class="col-md-12 col-lg-12" id="main">
             {{else}}
-            <div class="column col-xs-12 col-sm-9 col-lg-10" id="main">
+            <div class="column col-xs-12 col-sm-9 col-lg-12" id="main">
             {{/ifOr}}
-                <nav class="navbar navbar-default navbar-static-top">
+            <!-- delete header  -->
+              <!--  <nav class="navbar navbar-default navbar-static-top">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -107,7 +109,7 @@
                             </div
                         </ul>
                     </div>
-                </nav>
+                </nav> -->
                 {{#unless monitoring}}
                     {{#if conn_name}}
                         <div class="row">
