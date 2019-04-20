@@ -1,0 +1,8 @@
+{
+  "connections": {
+    "mongodb1": {
+      "connection_string": "mongodb://192.168.1.79:27017",
+      "connection_options": {}
+    }
+  }
+}
