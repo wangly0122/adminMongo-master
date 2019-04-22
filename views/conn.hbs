@@ -1,6 +1,6 @@
 <div class="col-md-5 col-lg-5">
     {{#if db_status}}
-        <h4>{{__ "Server status"}}</h4>
+        <h4>{{__ "服务状态"}}</h4>
         <ul class="list-group">
             <li class="list-group-item">
                 <strong>Version: </strong>{{db_status.version}}
@@ -19,9 +19,9 @@
             </li>
         </ul>
     {{/if}}
-    <h4>{{__ "Database maintenance"}}</h4>
+    <h4>{{__ "数据库维护"}}</h4>
     <div class="form-group">
-        <label for="new_db_name">{{__ "Create new database"}}</label>
+        <label for="new_db_name">{{__ "创建新的数据库"}}</label>
         <div class="input-group">
             <input type="text" class="form-control input-sm" id="new_db_name" placeholder="{{__ "database name"}}">
             <span class="input-group-btn">
@@ -30,7 +30,7 @@
         </div>
     </div>
     <div class="formBreak"></div>
-    <label>{{__ "Delete database"}}</label>
+    <label>{{__ "删除数据库"}}</label>
     <div class="input-group">
         <select class="form-control input-sm" id="del_db_name">
             {{#each db_list}}
@@ -42,7 +42,7 @@
         </span>	
     </div>
     <div class="formBreak"></div>
-    <h5>Restore database</h5>
+    <h5>恢复数据库</h5>
     <label>{{__ "Drop target"}}</label>
     <select class="form-control input-sm" id="restore_db_action">
         <option>true</option>
@@ -60,7 +60,7 @@
         </span>	
     </div>
     <div class="formBreak"></div>
-    <h5>Backup database</h5>
+    <h5>备份数据库</h5>
     <div class="input-group">
         <select class="form-control input-sm" id="backup_db_name">
             {{#each db_list}}
@@ -73,7 +73,7 @@
     </div>
  </div>
 <div class="col-md-7 col-lg-7">
-    <h4>{{__ "Connection statistics"}}</h4>
+    <h4>{{__ "连接统计信息"}}</h4>
     <div id="collection_chart"></div>
     <ul class="list-group">
         {{#each db_stats}}
