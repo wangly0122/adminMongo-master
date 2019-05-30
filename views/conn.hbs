@@ -3,29 +3,29 @@
         <h4>{{__ "服务状态"}}</h4>
         <ul class="list-group">
             <li class="list-group-item">
-                <strong>Version: </strong>{{db_status.version}}
+                <strong>版本: </strong>{{db_status.version}}
             </li>
             <li class="list-group-item">
-                <strong>Host: </strong>{{db_status.host}}
+                <strong>主机: </strong>{{db_status.host}}
             </li>
             <li class="list-group-item">
-                <strong>PID: </strong>{{db_status.pid}}
+                <strong>进程号: </strong>{{db_status.pid}}
             </li>
             <li class="list-group-item">
-                <strong>Uptime: </strong>{{formatDuration db_status.uptime}}
+                <strong>运行时长: </strong>{{formatDuration db_status.uptime}}
             </li>
             <li class="list-group-item">
-                <strong>Local time: </strong>{{db_status.localTime}}
+                <strong>当前时间: </strong>{{db_status.localTime}}
             </li>
         </ul>
     {{/if}}
     <h4>{{__ "数据库维护"}}</h4>
     <div class="form-group">
-        <label for="new_db_name">{{__ "创建新的数据库"}}</label>
+        <label for="new_db_name">{{__ "创建数据库"}}</label>
         <div class="input-group">
-            <input type="text" class="form-control input-sm" id="new_db_name" placeholder="{{__ "database name"}}">
+            <input type="text" class="form-control input-sm" id="new_db_name" placeholder="{{__ "数据库名称"}}">
             <span class="input-group-btn">
-                <button class="btn btn-success btn-sm" id="db_create">{{__ "Create"}}</button>
+                <button class="btn btn-success btn-sm" id="db_create">{{__ "创建"}}</button>
             </span>
         </div>
     </div>
@@ -38,17 +38,17 @@
             {{/each}}
         </select>
         <span class="input-group-btn">
-            <button class="btn btn-danger btn-sm" id="db_delete">{{__ "Delete"}}</button>
+            <button class="btn btn-danger btn-sm" id="db_delete">{{__ "删除"}}</button>
         </span>	
     </div>
     <div class="formBreak"></div>
     <h5>恢复数据库</h5>
-    <label>{{__ "Drop target"}}</label>
+    <label>{{__ "删除目标"}}</label>
     <select class="form-control input-sm" id="restore_db_action">
         <option>true</option>
         <option>false</option>
     </select>
-    <label>{{__ "Database name"}}</label>
+    <label>{{__ "数据库名称"}}</label>
     <div class="input-group">
         <select class="form-control input-sm" id="restore_db_name">
             {{#each backup_list}}
@@ -56,7 +56,7 @@
             {{/each}}
         </select>
         <span class="input-group-btn">
-            <button class="btn btn-danger btn-sm" id="db_restore">{{__ "Restore DB"}}</button>
+            <button class="btn btn-danger btn-sm" id="db_restore">{{__ "恢复"}}</button>
         </span>	
     </div>
     <div class="formBreak"></div>
@@ -68,7 +68,7 @@
             {{/each}}
         </select>
         <span class="input-group-btn">
-            <button class="btn btn-success btn-sm" id="db_backup">{{__ "Backup"}}</button>
+            <button class="btn btn-success btn-sm" id="db_backup">{{__ "备份"}}</button>
         </span>	
     </div>
  </div>

@@ -1,7 +1,7 @@
 {
 "app": {
         "host": "localhost",
-        "port": 4321,
+        "port": 5321,
         "password": "123456",
         "locale": "en",
         "context": "dbApp",

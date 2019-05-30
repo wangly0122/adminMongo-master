@@ -130,5 +130,17 @@
 	"Backup": "Backup",
 	"Database successfully backed up": "Database successfully backed up",
 	"Query": "Query",
-	"Indexes": "Indexes"
+	"Indexes": "Indexes",
+	"服务状态": "服务状态",
+	"数据库维护": "数据库维护",
+	"创建新的数据库": "创建新的数据库",
+	"删除数据库": "删除数据库",
+	"连接统计信息": "连接统计信息",
+	"创建数据库": "创建数据库",
+	"数据库名称": "数据库名称",
+	"删除目标": "删除目标",
+	"创建": "创建",
+	"删除": "删除",
+	"恢复": "恢复",
+	"备份": "备份"
 }
